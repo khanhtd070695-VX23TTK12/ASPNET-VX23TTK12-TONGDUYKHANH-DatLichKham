@@ -1,0 +1,41 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="DatLichKham.Site" %>
+<!DOCTYPE html>
+<html lang="vi">
+<head runat="server">
+    <meta charset="utf-8" />
+    <title>Đặt lịch khám ngoài giờ</title>
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body>
+<form id="form1" runat="server">
+    <header class="topbar">
+        <a class="brand" href="~/Default.aspx" runat="server">Phòng khám ngoài giờ</a>
+        <nav>
+            <a href="~/Default.aspx" runat="server">Trang chủ</a>
+            <asp:PlaceHolder ID="phBenhNhan" runat="server">
+                <a href="~/DatLich.aspx" runat="server">Đặt lịch</a>
+                <a href="~/LichCuaToi.aspx" runat="server">Lịch của tôi</a>
+            </asp:PlaceHolder>
+            <asp:PlaceHolder ID="phQuanTri" runat="server">
+                <a href="~/Admin/QuanLyLichHen.aspx" runat="server">Quản lý</a>
+            </asp:PlaceHolder>
+        </nav>
+        <div class="user">
+            <asp:PlaceHolder ID="phKhach" runat="server">
+                <a href="~/DangNhap.aspx" runat="server">Đăng nhập</a>
+                <a href="~/DangKy.aspx" runat="server">Đăng ký</a>
+            </asp:PlaceHolder>
+            <asp:PlaceHolder ID="phDaDangNhap" runat="server">
+                <asp:Label ID="lblXinChao" runat="server"></asp:Label>
+                <asp:LinkButton ID="btnDangXuat" runat="server" OnClick="btnDangXuat_Click">Đăng xuất</asp:LinkButton>
+            </asp:PlaceHolder>
+        </div>
+    </header>
+    <main class="container">
+        <asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>
+    </main>
+    <footer class="footer">Đồ án Chuyên đề ASP.NET – Tống Duy Khanh – VX23TTK12</footer>
+</form>
+</body>
+</html>
