@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="Content\Site.css" />
     <Content Include="DangKy.aspx" />
+    <Content Include="DangNhap.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
@@ -80,6 +81,13 @@
     </Compile>
     <Compile Include="DangKy.aspx.designer.cs">
       <DependentUpon>DangKy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DangNhap.aspx.cs">
+      <DependentUpon>DangNhap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DangNhap.aspx.designer.cs">
+      <DependentUpon>DangNhap.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>

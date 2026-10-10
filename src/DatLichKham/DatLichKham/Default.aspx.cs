@@ -1,5 +1,9 @@
-﻿using DatLichKham.Helpers;
-using System;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
 
 namespace DatLichKham
 {
@@ -7,9 +11,7 @@ namespace DatLichKham
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            int bs = Convert.ToInt32(DatabaseHelper.Scalar("SELECT COUNT(*) FROM BacSi WHERE TrangThai = 1"));
-            int ck = Convert.ToInt32(DatabaseHelper.Scalar("SELECT COUNT(*) FROM ChuyenKhoa"));
-            lblThongTin.Text = "Hiện có " + bs + " bác sĩ thuộc " + ck + " chuyên khoa.";
+
         }
     }
 }
