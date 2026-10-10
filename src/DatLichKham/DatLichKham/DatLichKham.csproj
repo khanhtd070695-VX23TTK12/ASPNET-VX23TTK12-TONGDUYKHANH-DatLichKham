@@ -70,6 +70,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="DangKy.aspx" />
     <Content Include="DangNhap.aspx" />
+    <Content Include="DatLich.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
@@ -88,6 +89,13 @@
     </Compile>
     <Compile Include="DangNhap.aspx.designer.cs">
       <DependentUpon>DangNhap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DatLich.aspx.cs">
+      <DependentUpon>DatLich.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DatLich.aspx.designer.cs">
+      <DependentUpon>DatLich.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
