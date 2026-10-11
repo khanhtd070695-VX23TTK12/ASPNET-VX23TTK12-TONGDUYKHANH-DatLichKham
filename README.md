@@ -57,4 +57,4 @@ Website cho phép bệnh nhân đặt lịch hẹn khám ngoài giờ trực tuy
 \## Tiến độ
 
 - Tuần 1 (05/10 – 11/10/2026): Tạo repo, phân tích yêu cầu, thiết kế và cài đặt CSDL QLDatLichKham. Chi tiết: [progress-report/Tuan01.md](progress-report/Tuan01.md)
-
+- Tuần 2 (12/10 – 18/10/2026): Dựng project ASP.NET Web Forms, Master Page, chức năng đăng ký, đăng nhập, đặt lịch, xem và hủy lịch. Chi tiết: [progress-report/Tuan02.md](progress-report/Tuan02.md)
