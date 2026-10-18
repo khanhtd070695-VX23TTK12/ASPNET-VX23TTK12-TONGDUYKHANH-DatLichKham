@@ -17,9 +17,12 @@
                 <a href="~/DatLich.aspx" runat="server">Đặt lịch</a>
                 <a href="~/LichCuaToi.aspx" runat="server">Lịch của tôi</a>
             </asp:PlaceHolder>
-            <asp:PlaceHolder ID="phQuanTri" runat="server">
-                <a href="~/Admin/QuanLyLichHen.aspx" runat="server">Quản lý</a>
-            </asp:PlaceHolder>
+           <asp:PlaceHolder ID="phQuanTri" runat="server">
+    <a href="~/Admin/QuanLyLichHen.aspx" runat="server">Lịch hẹn</a>
+    <asp:PlaceHolder ID="phAdmin" runat="server">
+        <a href="~/Admin/QuanLyChuyenKhoa.aspx" runat="server">Chuyên khoa</a>
+    </asp:PlaceHolder>
+</asp:PlaceHolder>
         </nav>
         <div class="user">
             <asp:PlaceHolder ID="phKhach" runat="server">

@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Admin\QuanLyChuyenKhoa.aspx" />
     <Content Include="Admin\QuanLyLichHen.aspx" />
     <Content Include="Content\Site.css" />
     <Content Include="DangKy.aspx" />
@@ -78,6 +79,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin\QuanLyChuyenKhoa.aspx.cs">
+      <DependentUpon>QuanLyChuyenKhoa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\QuanLyChuyenKhoa.aspx.designer.cs">
+      <DependentUpon>QuanLyChuyenKhoa.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Admin\QuanLyLichHen.aspx.cs">
       <DependentUpon>QuanLyLichHen.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

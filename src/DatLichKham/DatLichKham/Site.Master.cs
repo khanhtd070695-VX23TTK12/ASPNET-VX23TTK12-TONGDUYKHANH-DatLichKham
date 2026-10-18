@@ -18,6 +18,7 @@ namespace DatLichKham
             phDaDangNhap.Visible = daDangNhap;
             phBenhNhan.Visible = vaiTro == "BenhNhan";
             phQuanTri.Visible = vaiTro == "Admin" || vaiTro == "LeTan";
+            phAdmin.Visible = vaiTro == "Admin";
 
             if (daDangNhap)
                 lblXinChao.Text = "Xin chào, " + Server.HtmlEncode(Session["HoTen"] as string) + " ";
