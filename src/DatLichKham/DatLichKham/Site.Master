@@ -20,6 +20,12 @@
            <asp:PlaceHolder ID="phQuanTri" runat="server">
     <a href="~/Admin/QuanLyLichHen.aspx" runat="server">Lịch hẹn</a>
     <asp:PlaceHolder ID="phAdmin" runat="server">
+        <asp:PlaceHolder ID="PlaceHolder3" runat="server">
+    <a href="~/Admin/QuanLyChuyenKhoa.aspx" runat="server">Chuyên khoa</a>
+    <a href="~/Admin/QuanLyBacSi.aspx" runat="server">Bác sĩ</a>
+    <a href="~/Admin/QuanLyKhungGio.aspx" runat="server">Khung giờ</a>
+    <a href="~/Admin/QuanLyBenhNhan.aspx" runat="server">Bệnh nhân</a>
+</asp:PlaceHolder>
         <asp:PlaceHolder ID="PlaceHolder2" runat="server">
     <a href="~/Admin/QuanLyChuyenKhoa.aspx" runat="server">Chuyên khoa</a>
     <a href="~/Admin/QuanLyBacSi.aspx" runat="server">Bác sĩ</a>
