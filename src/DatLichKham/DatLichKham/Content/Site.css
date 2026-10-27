@@ -109,3 +109,42 @@ table.grid {
     table.grid th {
         background: #e8f1f6;
     }
+h3 {
+    margin-top: 28px;
+}
+
+.cards {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin: 16px 0;
+}
+
+.card {
+    flex: 1;
+    min-width: 130px;
+    background: #e8f1f6;
+    border-radius: 8px;
+    padding: 12px;
+    text-align: center;
+}
+
+    .card .num {
+        font-size: 26px;
+        font-weight: 600;
+        color: #0b6e99;
+        display: block;
+    }
+
+.bar {
+    background: #eee;
+    border-radius: 4px;
+    height: 14px;
+    min-width: 120px;
+}
+
+.bar-fill {
+    background: #0b6e99;
+    height: 14px;
+    border-radius: 4px;
+}
