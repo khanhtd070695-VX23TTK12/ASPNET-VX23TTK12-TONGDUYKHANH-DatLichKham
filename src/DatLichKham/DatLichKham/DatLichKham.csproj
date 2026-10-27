@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="Admin\QuanLyBacSi.aspx" />
     <Content Include="Admin\QuanLyChuyenKhoa.aspx" />
+    <Content Include="Admin\QuanLyKhungGio.aspx" />
     <Content Include="Admin\QuanLyLichHen.aspx" />
     <Content Include="Content\Site.css" />
     <Content Include="DangKy.aspx" />
@@ -93,6 +94,13 @@
     </Compile>
     <Compile Include="Admin\QuanLyChuyenKhoa.aspx.designer.cs">
       <DependentUpon>QuanLyChuyenKhoa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\QuanLyKhungGio.aspx.cs">
+      <DependentUpon>QuanLyKhungGio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\QuanLyKhungGio.aspx.designer.cs">
+      <DependentUpon>QuanLyKhungGio.aspx</DependentUpon>
     </Compile>
     <Compile Include="Admin\QuanLyLichHen.aspx.cs">
       <DependentUpon>QuanLyLichHen.aspx</DependentUpon>
